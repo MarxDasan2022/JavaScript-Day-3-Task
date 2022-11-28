@@ -1,0 +1,84 @@
+//Create your own resume data in JSON format
+
+var resume = {
+    "name": "Marx",
+    "age": 32,
+    "gender":"male",
+    "qualification": ["10th", "12th", "B.E","B.ed"],
+    "location":"chennai",
+    "languages_known":["Tamil","English","Hindi"],
+}
+console.log(resume);
+
+Output:
+
+age
+: 
+32
+gender
+: 
+"male"
+languages_known
+: 
+Array(3)
+0
+: 
+"Tamil"
+1
+: 
+"English"
+2
+: 
+"Hindi"
+length
+: 
+3
+[[Prototype]]
+: 
+Array(0)
+location
+: 
+"chennai"
+name
+: 
+"Marx"
+qualification
+: 
+Array(4)
+0
+: 
+"10th"
+1
+: 
+"12th"
+2
+: 
+"B.E"
+3
+: 
+"B.ed"
+
+//----------------------------------------------------------------
+
+//For the given JSON iterate all for loops (for, for in, for of, forEach)
+
+var obj = {
+    "name": "john",
+    "age": 20,
+    "gender":"male",
+    "attendence":["mon","tue","wed","thur"]
+
+}   
+for(i=0;i<obj.attendence.length;i++);
+{
+    console.log(obj.attendence[i]);
+}
+
+Output:
+
+mon
+tue
+wed
+thur
+----------------------------------------------------------------
+
